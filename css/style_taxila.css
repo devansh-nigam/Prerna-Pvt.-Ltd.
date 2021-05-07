@@ -1,0 +1,100 @@
+.taxila {
+  display: flex;
+  flex-direction: column;
+}
+
+.taxila > svg {
+  padding: 0;
+  width: 100%;
+  height: 400px;
+  margin-top: 2px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.infotaxila {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-left: 3%;
+  width: 90%;
+}
+
+.taxila > .infotaxila > h1 {
+  width: 100%;
+  font-family: "hBold";
+  font-size: 3.2rem;
+  letter-spacing: 0.2px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.taxila > .infotaxila > p {
+  font-weight: 700;
+  margin-top: 15px;
+  color: var(--black);
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.taxila > .infotaxila > .buttontaxila {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.taxila > .infotaxila > .buttontaxila > a {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-family: "hMedium";
+  padding: 10px;
+  background: rgba(243, 172, 48, 0.7);
+  margin-bottom: 16px;
+  border-radius: 10px;
+  font-size: 25px;
+  border: black solid 3px;
+}
+
+.taxila > .infotaxila > .buttontaxila > a:hover {
+  background: rgba(243, 172, 48, 1);
+}
+
+/*--------------------------------------------Media Queries--------------------------------------------*/
+@media only screen and (min-width: 830px) {
+  .taxila {
+    padding: 0;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-left: 2%;
+  }
+
+  .taxila > svg {
+    width: 45%;
+  }
+
+  .infotaxila {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-right: 1.5%;
+  }
+
+  .taxila > .infotaxila > .buttontaxila {
+    margin-top: 30px;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-evenly;
+    margin-bottom: 0px;
+  }
+
+  .taxila > .infotaxila > .buttontaxila > a {
+    display: inline-block;
+  }
+}

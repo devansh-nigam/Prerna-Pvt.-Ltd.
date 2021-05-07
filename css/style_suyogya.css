@@ -1,0 +1,431 @@
+.suyogya {
+  display: flex;
+  flex-direction: column;
+  /* margin-top: 20px; */
+}
+
+.suyogya > svg {
+  padding: 0;
+  width: 100%;
+  height: 400px;
+  margin-top: 2px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.infosuyogya {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-left: 3%;
+  width: 90%;
+}
+
+.suyogya > .infosuyogya > h1 {
+  width: 100%;
+  font-family: "hBold";
+  font-size: 3.2rem;
+  letter-spacing: 0.2px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.suyogya > .infosuyogya > p {
+  font-weight: 700;
+  margin-top: 15px;
+  color: var(--black);
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.suyogya > .infosuyogya > .buttonsuyogya {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.suyogya > .infosuyogya > .buttonsuyogya > a {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-family: "hMedium";
+  padding: 10px;
+  background: rgba(243, 172, 48, 0.7);
+  margin-bottom: 16px;
+  border-radius: 10px;
+  font-size: 25px;
+  border: black solid 3px;
+}
+
+#notebook1 {
+  animation: notebook1 infinite 5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+@keyframes notebook1 {
+  from {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(20px, -20px);
+  }
+  to {
+    transform: translate(0, 0);
+  }
+}
+
+#notebook3 {
+  animation: notebook3 infinite 5s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+@keyframes notebook3 {
+  from {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(30px, 40px);
+  }
+  to {
+    transform: translate(0, 0);
+  }
+}
+
+#notebook2,
+#notebook4 {
+  animation: notebook2 infinite 5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+@keyframes notebook2 {
+  from {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(-30px, 40px);
+  }
+  to {
+    transform: translate(0, 0);
+  }
+}
+
+/*------------Resume----------------------------------*/
+.resume {
+  display: flex;
+  flex-direction: column;
+  /* margin-top: 20px; */
+}
+
+.resume > svg {
+  padding: 0;
+  width: 100%;
+  height: 400px;
+  margin-top: 2px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.inforesume {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-left: 3%;
+  width: 90%;
+}
+
+.resume > .inforesume > h1 {
+  width: 100%;
+  font-family: "hBold";
+  font-size: 3.2rem;
+  letter-spacing: 0.2px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.resume > .inforesume > p {
+  font-weight: 700;
+  margin-top: 15px;
+  color: var(--black);
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.resume > .inforesume > .buttonresume {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.resume > .inforesume > .buttonresume > a {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-family: "hMedium";
+  padding: 10px;
+  background: rgba(243, 172, 48, 0.7);
+  margin-bottom: 16px;
+  border-radius: 10px;
+  font-size: 25px;
+  border: black solid 3px;
+}
+
+.resume > .inforesume > .buttonresume > a:hover {
+  background: rgba(243, 172, 48, 1);
+}
+
+#gear1,
+#gear4 {
+  animation: gearsclock infinite 6s linear;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@keyframes gearsclock {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+#gear2,
+#gear3 {
+  animation: gearsclock infinite 6s linear;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@keyframes gearsanticlock {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+#section1 {
+  animation: enlarge infinite 5s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+@keyframes enlarge {
+  from {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(-30px, 0);
+  }
+}
+
+/*---------------------------------------Interview-----------------------------------------------*/
+.interview {
+  display: flex;
+  flex-direction: column;
+  /* margin-top: 20px; */
+}
+
+.interview > svg {
+  padding: 0;
+  width: 100%;
+  height: 300px;
+  margin-top: 0px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.infointerview {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-left: 3%;
+  width: 90%;
+}
+
+.interview > .infointerview > h1 {
+  width: 100%;
+  font-family: "hBold";
+  font-size: 3.2rem;
+  letter-spacing: 0.2px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.interview > .infointerview > p {
+  font-weight: 700;
+  margin-top: 15px;
+  color: var(--black);
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.interview > .infointerview > .buttoninterview {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.interview > .infointerview > .buttoninterview > a {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-family: "hMedium";
+  padding: 10px;
+  background: rgba(243, 172, 48, 0.7);
+  margin-bottom: 16px;
+  border-radius: 10px;
+  font-size: 25px;
+  border: black solid 3px;
+}
+
+.interview > .infointerview > .buttoninterview > a:hover {
+  background: rgba(243, 172, 48, 1);
+}
+
+#tableresume {
+  animation: tableresume infinite 5s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@keyframes tableresume {
+  from {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(0, 60px) rotateZ(30deg);
+  }
+}
+
+.details {
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+}
+
+.details > input[type="file"],
+.details > label {
+  font-family: "hMedium";
+  font-size: 0.9em;
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+  padding-top: 0.35rem;
+}
+
+.details > input[type="file"] {
+  margin-left: 60px;
+}
+
+/*----------------------------------------------------------------------------------------*/
+
+/*--------------------------------Media Queries-----------------------------*/
+@media only screen and (min-width: 830px) {
+  .suyogya {
+    padding: 0;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-left: 2%;
+  }
+
+  .suyogya > svg {
+    width: 45%;
+  }
+
+  .infosuyogya {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-right: 1.5%;
+  }
+
+  .suyogya > .infosuyogya > .buttonsuyogya {
+    margin-top: 30px;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-evenly;
+    margin-bottom: 0px;
+  }
+
+  .suyogya > .infosuyogya > .buttonsuyogya > a {
+    display: inline-block;
+  }
+
+  /*-----------------------------Resume---------------------------------------------*/
+  .resume {
+    padding: 0;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-left: 2%;
+  }
+
+  .resume > svg {
+    width: 45%;
+  }
+
+  .inforesume {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-right: 1.5%;
+  }
+
+  .resume > .inforesume > .buttonresume {
+    margin-top: 30px;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-evenly;
+    margin-bottom: 0px;
+  }
+
+  .resume > .inforesume > .buttonresume > a {
+    display: inline-block;
+  }
+  /*--------------------------------------------------------------------------------*/
+
+  /*----------------------Interview------------------------------------------*/
+  .interview {
+    padding: 0;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-left: 2%;
+  }
+
+  .interview > svg {
+    width: 45%;
+  }
+
+  .infointerview {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-right: 1.5%;
+  }
+
+  .interview > .infointerview > .buttoninterview {
+    margin-top: 30px;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-evenly;
+    margin-bottom: 0px;
+  }
+
+  .interview > .infointerview > .buttoninterview > a {
+    display: inline-block;
+  }
+}

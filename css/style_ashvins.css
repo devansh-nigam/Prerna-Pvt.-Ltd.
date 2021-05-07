@@ -1,0 +1,246 @@
+.ashvins,
+.ahospital {
+  display: flex;
+  flex-direction: column;
+  /* margin-top: 20px; */
+}
+
+.ashvins > svg,
+.ahospital > svg {
+  padding: 0;
+  width: 100%;
+  height: 400px;
+  margin-top: 2px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.infoashvins,
+.infoahospital {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-left: 3%;
+  width: 90%;
+}
+
+.ashvins > .infoashvins > h1,
+.ahospital > .infoahospital > h1 {
+  width: 100%;
+  font-family: "hBold";
+  font-size: 3.2rem;
+  letter-spacing: 0.2px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.ashvins > .infoashvins > p,
+.ahospital > .infoahospital > p {
+  font-weight: 700;
+  margin-top: 15px;
+  color: var(--black);
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.ashvins > .infoashvins > .buttonashvins,
+.ahospital > .infoahospital > .buttonahospital {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.ashvins > .infoashvins > .buttonashvins > a,
+.ahospital > .infoahospital > .buttonahospital > a {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-family: "hMedium";
+  padding: 10px;
+  background: rgba(243, 172, 48, 0.7);
+  margin-bottom: 16px;
+  border-radius: 10px;
+  font-size: 25px;
+  border: black solid 3px;
+}
+
+.ashvins > .infoashvins > .buttonashvins > a:hover,
+.ahospital > .infoahospital > .buttonahospital > a:hover {
+  background: rgba(243, 172, 48, 1);
+}
+
+.twitterfeed {
+  justify-content: center;
+  text-align: center;
+}
+
+.dark-matter {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+  background: rgba(243, 172, 48, 0.7);
+  padding: 20px 30px 20px 30px;
+  font: 12px "hMedium", Helvetica, Arial, sans-serif;
+  color: black;
+  text-shadow: 1px 1px 1px rgba(243, 172, 48, 1);
+  border: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  box-shadow: 20px 20px 20px 10px rgba(0, 0, 0, 0.2);
+}
+.dark-matter h1 {
+  padding: 0px 0px 10px 40px;
+  display: block;
+  border-bottom: 1px solid #444;
+  margin: -10px -30px 30px -30px;
+}
+.dark-matter h1 > span {
+  display: block;
+  font-size: 11px;
+}
+.dark-matter label {
+  display: block;
+  margin: 0px 0px 5px;
+}
+.dark-matter label > span {
+  float: left;
+  width: 20%;
+  text-align: right;
+  padding-right: 10px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+.dark-matter input[type="text"],
+.dark-matter input[type="email"],
+.dark-matter input[type="date"],
+.dark-matter input[type="file"] {
+  border: none;
+  color: #525252;
+  height: 25px;
+  line-height: 15px;
+  margin-bottom: 16px;
+  margin-right: 6px;
+  margin-top: 2px;
+  outline: 0 none;
+  padding: 5px 0px 5px 5px;
+  width: 70%;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  background: #dfdfdf;
+}
+
+.dark-matter input[type="date"],
+.dark-matter input[type="file"] {
+  height: 25px;
+  padding: 5px 5px 5px 5px;
+  width: 70%;
+}
+
+.dark-matter > .govid {
+  display: flex;
+  justify-content: left;
+  margin-top: 4%;
+}
+.dark-matter > .govid > span {
+  width: 20%;
+  float: left;
+}
+
+.dark-matter .button {
+  background: #ffcc02;
+  border: none;
+  padding: 10px 25px 10px 25px;
+  color: #585858;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  text-shadow: 1px 1px 1px #ffe477;
+  font-weight: bold;
+  box-shadow: 1px 1px 1px #3d3d3d;
+  -webkit-box-shadow: 1px 1px 1px #3d3d3d;
+  -moz-box-shadow: 1px 1px 1px #3d3d3d;
+}
+
+.dark-matter .button:hover {
+  color: #333;
+  background-color: #ebebeb;
+}
+
+#carright {
+  animation: carright infinite 15s linear;
+}
+
+@keyframes carright {
+  from {
+    transform: translate(400px, 0);
+  }
+  to {
+    transform: translate(-1000px, 0);
+  }
+}
+
+#carleft {
+  animation: carleft infinite 18s linear;
+}
+
+@keyframes carleft {
+  from {
+    transform: translate(-400px, 0);
+  }
+  to {
+    transform: translate(1000px, 0);
+  }
+}
+
+/*------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 830px) {
+  .ashvins,
+  .ahospital {
+    padding: 0;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-left: 2%;
+  }
+
+  .ashvins > svg,
+  .ahospital > svg {
+    width: 45%;
+    margin-right: 25px;
+  }
+
+  .infoashvins,
+  .infoahospital {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-right: 1.5%;
+  }
+
+  .ashvins > .infoashvins > .buttonashvins,
+  .ahospital > .infoahospital > .buttonahospital {
+    margin-top: 30px;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-evenly;
+    margin-bottom: 0px;
+  }
+
+  .ashvins > .infoashvins > .buttonashvins > a,
+  .ahospital > .infoahospital > .buttonahospital > a {
+    display: inline-block;
+  }
+
+  .twitterfeed {
+    margin-top: 40px;
+  }
+}

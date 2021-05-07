@@ -1,0 +1,436 @@
+/*-----------------------------------------------Who are we?----------------------------------------*/
+.opening {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0;
+}
+
+.greet {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: center;
+  padding: 3px;
+}
+
+.opening > svg {
+  display: flex;
+  margin: auto 0;
+  width: 100%;
+}
+
+#book1 {
+  animation: book1 infinite 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+#book6 {
+  animation: book6 infinite 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+@keyframes book1 {
+  from {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(-8px, 0);
+  }
+  to {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes book6 {
+  from {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(-8px, 0);
+  }
+  to {
+    transform: translate(0, 0);
+  }
+}
+
+/*----------------------------------------------Where It all Started--------------------------------*/
+.where {
+  display: flex;
+  flex-direction: column;
+}
+
+.where > svg {
+  padding: 0;
+  width: 100%;
+  height: 400px;
+  margin-top: 20px;
+}
+
+.infowhere {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+  margin-left: 3%;
+}
+
+.where > .infowhere > h1 {
+  width: 100%;
+  font-family: "hBold";
+  font-size: 3.2rem;
+  letter-spacing: 0.2px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.where > .infowhere > p {
+  font-weight: 700;
+  margin-top: 15px;
+  color: var(--black);
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+#balls1 {
+  animation: balls1 infinite 6s linear;
+}
+
+#balls2 {
+  animation: balls2 infinite 6s linear;
+}
+
+#balls3 {
+  animation: balls3 infinite 6s linear;
+}
+
+#bigballoon {
+  animation: bigballoon infinite 4s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+@keyframes bigballoon {
+  from {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(-7px, -2px);
+  }
+}
+
+@keyframes balls1 {
+  from {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(-40px, -50px);
+  }
+}
+
+@keyframes balls2 {
+  from {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(-25px, 50px);
+  }
+}
+
+@keyframes balls3 {
+  from {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(26px, -48px);
+  }
+}
+
+.aandr {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.descrp {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.aandr > .descrp > h1 {
+  width: 100%;
+  font-family: "hBold";
+  font-size: 3.2rem;
+  letter-spacing: 0.2px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.aandr > .descrp > p {
+  font-weight: 700;
+  margin-top: 15px;
+  color: var(--black);
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.aandr > .descrp > .awards {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 60px;
+  justify-content: space-evenly;
+  text-align: center;
+  font-weight: 700;
+  font-size: 2.5em;
+}
+
+.aandr > .descrp > .awards > .award1,
+.aandr > .descrp > .awards > .award2,
+.aandr > .descrp > .awards > .award3,
+.aandr > .descrp > .awards > .award4 {
+  width: 75%;
+  height: 45vh;
+  padding: 2%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  background: linear-gradient(#f3ac30, var(--white));
+  box-shadow: 20px 20px 20px 10px rgba(0, 0, 0, 0.2);
+}
+
+.award1 > h1,
+.award2 > h1,
+.award3 > h1,
+.award4 > h1 {
+  font-family: "samarkan";
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-size: 2rem;
+  font-variant: bold;
+}
+
+.award1 > h2 {
+  font-size: 4vw;
+}
+
+.award2 > h2,
+.award3 > h2,
+.award4 > h2 {
+  margin-top: 10px;
+  font-family: "hMedium";
+  font-variant: bold;
+  font-size: 6vw;
+}
+
+.award1 > h3,
+.award2 > h3,
+.award3 > h3,
+.award4 > h3 {
+  font-variant: bold;
+  font-size: 3vw;
+}
+
+.aandr > .descrp > .awards > .award2 > svg,
+.aandr > .descrp > .awards > .award1 > svg,
+.aandr > .descrp > .awards > .award3 > svg,
+.aandr > .descrp > .awards > .award4 > svg {
+  width: 100%;
+  height: 50%;
+  margin-top: 0px;
+}
+
+table {
+  margin: 0 auto;
+  width: 100%;
+  border: none;
+}
+
+tr {
+  background-color: rgb(243, 172, 48, 0.5);
+  color: rgb(0, 0, 0, 0.6);
+  font-weight: 800;
+}
+
+td > a > svg {
+  margin-left: 16px;
+}
+tr:hover {
+  color: rgb(243, 172, 48, 1);
+  font-weight: 800;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+tr:first-child {
+  color: white;
+}
+
+th {
+  padding: 10px;
+  text-align: center;
+}
+
+th:first-child {
+  border-radius: 30px 0 0 0;
+}
+
+th:last-child {
+  border-radius: 0 30px 0px 0;
+}
+
+td {
+  height: 14px;
+  padding: 10px;
+  text-align: center;
+}
+
+tr:last-child td:first-child {
+  border-radius: 0 0 0 30px;
+}
+
+tr:last-child td:last-child {
+  border-radius: 0 0 30px 0px;
+}
+
+/*------------------------------------------Locations Table---------------------------------------------*/
+
+.locations > h1 {
+  width: 100%;
+  font-family: "hBold";
+  font-size: 3.2rem;
+  letter-spacing: 0.2px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.locations > p {
+  font-weight: 700;
+  margin-top: 15px;
+  color: var(--black);
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 830px) {
+  .lat,
+  .lon {
+    display: none;
+  }
+}
+
+/*----------------------------------------------Media Queries---------------------------------------*/
+@media only screen and (min-width: 830px) {
+  .opening {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .opening > svg {
+    width: 50%;
+  }
+
+  .where {
+    padding: 0;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .where > svg {
+    width: 90%;
+  }
+
+  .infowhere {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-right: 1.5%;
+  }
+
+  .aandr > .descrp > .awards {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .aandr > .descrp > .awards > .award1,
+  .aandr > .descrp > .awards > .award2,
+  .aandr > .descrp > .awards > .award3,
+  .aandr > .descrp > .awards > .award4 {
+    width: 23%;
+    height: 60vh;
+    padding: 2%;
+  }
+
+  .award1 > h1,
+  .award2 > h1,
+  .award3 > h1,
+  .award4 > h1 {
+    font-size: 3.8rem;
+    font-family: "samarkan";
+  }
+
+  .award2 > h2,
+  .award3 > h2,
+  .award4 > h2 {
+    margin-top: 25px;
+    font-size: 2vw;
+  }
+
+  .award1 > h2 {
+    margin-top: 25px;
+    font-size: 1.5vw;
+  }
+
+  .award1 > h3,
+  .award2 > h3,
+  .award3 > h3,
+  .award4 > h3 {
+    font-size: 1vw;
+    font-weight: 500;
+  }
+
+  .award2:hover,
+  .award1:hover,
+  .award3:hover,
+  .award4:hover {
+    transform: scale(1.1, 1.1);
+    transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
+    transition-duration: 1.2s;
+  }
+
+  table {
+    width: 1000px;
+  }
+
+  th {
+    padding: 10px;
+  }
+
+  td {
+    height: 14px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .interactive-map {
+    flex-direction: column;
+    margin-top: 0;
+  }
+
+  .interactive-map > .infomap {
+    margin: 0 auto;
+  }
+
+  .interactive-map > .infomap > .buttonlocations {
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  .interactive-map > .infomap > .buttonlocations > a {
+    margin: 0 auto;
+    margin-top: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+}
